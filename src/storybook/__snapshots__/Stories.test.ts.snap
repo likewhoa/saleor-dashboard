@@ -1116,6 +1116,54 @@ exports[`Storyshots Generics / Column picker default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Generics / Column picker loading 1`] = `
+<div
+  style="padding:24px"
+>
+  <div
+    class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+    style="margin:auto;overflow:visible;width:400px"
+  >
+    <div
+      class="MuiCardContent-root-id"
+    >
+      <div
+        style="display:flex;justify-content:center"
+      >
+        <div>
+          <button
+            class="MuiButtonBase-root-id MuiButton-root-id MuiButton-outlined-id MuiButton-outlinedPrimary-id ColumnPickerButton-root-id"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label-id"
+            >
+              Columns
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-id MuiSvgIcon-colorPrimary-id ColumnPickerButton-icon-id"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Generics / Date default 1`] = `
 <div
   style="padding:24px"
@@ -17776,24 +17824,24 @@ Ctrl + K"
           class="CardTitle-hr-id"
         />
         <div
-          class="ProductList-tableContainer-id"
+          class="CategoryProductList-tableContainer-id"
         >
           <table
-            class="MuiTable-root-id ProductList-table-id"
+            class="MuiTable-root-id CategoryProductList-table-id"
           >
             <colgroup>
               <col />
               <col
-                class="ProductList-colName-id"
+                class="CategoryProductList-colName-id"
               />
               <col
-                class="ProductList-colType-id"
+                class="CategoryProductList-colType-id"
               />
               <col
-                class="ProductList-colPublished-id"
+                class="CategoryProductList-colPublished-id"
               />
               <col
-                class="ProductList-colPrice-id"
+                class="CategoryProductList-colPrice-id"
               />
             </colgroup>
             <thead
@@ -17803,29 +17851,29 @@ Ctrl + K"
                 class="MuiTableRow-root-id MuiTableRow-head-id"
               >
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colName-id"
                   scope="col"
                 >
                   <span
-                    class="ProductList-colNameHeader-id"
+                    class="CategoryProductList-colNameHeader-id"
                   >
                     Name
                   </span>
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colType-id"
                   scope="col"
                 >
                   Type
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colPublished-id"
                   scope="col"
                 >
                   Published
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colPrice-id"
                   scope="col"
                 >
                   Price
@@ -19783,24 +19831,24 @@ Ctrl + K"
           class="CardTitle-hr-id"
         />
         <div
-          class="ProductList-tableContainer-id"
+          class="CategoryProductList-tableContainer-id"
         >
           <table
-            class="MuiTable-root-id ProductList-table-id"
+            class="MuiTable-root-id CategoryProductList-table-id"
           >
             <colgroup>
               <col />
               <col
-                class="ProductList-colName-id"
+                class="CategoryProductList-colName-id"
               />
               <col
-                class="ProductList-colType-id"
+                class="CategoryProductList-colType-id"
               />
               <col
-                class="ProductList-colPublished-id"
+                class="CategoryProductList-colPublished-id"
               />
               <col
-                class="ProductList-colPrice-id"
+                class="CategoryProductList-colPrice-id"
               />
             </colgroup>
             <thead
@@ -19826,29 +19874,29 @@ Ctrl + K"
                   </button>
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colName-id"
                   scope="col"
                 >
                   <span
-                    class="ProductList-colNameHeader-id"
+                    class="CategoryProductList-colNameHeader-id"
                   >
                     Name
                   </span>
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colType-id"
                   scope="col"
                 >
                   Type
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colPublished-id"
                   scope="col"
                 >
                   Published
                 </th>
                 <th
-                  class="MuiTableCell-root-id MuiTableCell-head-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-head-id CategoryProductList-colPrice-id"
                   scope="col"
                 >
                   Price
@@ -19935,8 +19983,7 @@ Ctrl + K"
               class="MuiTableBody-root-id"
             >
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyMQ=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -19954,7 +20001,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -19967,20 +20014,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Gardner-Schultz
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -19989,14 +20036,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $83.30
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyMg=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20014,7 +20060,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20027,20 +20073,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       James, Martinez and Murray
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20049,14 +20095,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $68.27
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyMw=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20074,7 +20119,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20087,20 +20132,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Curtis, Joyce and Turner
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20109,14 +20154,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $21.43
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyNA=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20134,7 +20178,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20147,20 +20191,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Davis, Brown and Ray
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20169,14 +20213,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $62.76
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyNQ=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20194,7 +20237,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20207,20 +20250,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Gallegos Ltd
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20229,14 +20272,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $7.13
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyNg=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20254,7 +20296,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20267,20 +20309,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Franklin Inc
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20289,14 +20331,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $48.82
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyNw=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20314,7 +20355,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20327,20 +20368,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams-Taylor
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20349,14 +20390,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $27.34
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyOA=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20374,7 +20414,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20387,20 +20427,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Riddle, Evans and Hicks
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20409,14 +20449,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $75.42
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDoyOQ=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20434,7 +20473,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20447,20 +20486,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Hebert-Sherman
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20469,14 +20508,13 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $86.62
                 </td>
               </tr>
               <tr
-                class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-                data-tc="product-UHJvZHVjdDozMA=="
+                class="MuiTableRow-root-id MuiTableRow-hover-id CategoryProductList-link-id"
               >
                 <td
                   class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -20494,7 +20532,7 @@ Ctrl + K"
                   </button>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id CategoryProductList-colName-id"
                 >
                   <div
                     class="TableCellAvatar-content-id"
@@ -20507,20 +20545,20 @@ Ctrl + K"
                         src="placeholder255x255.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Carter and Sons
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colType-id"
                 >
                   Coffee
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPublished-id"
                 >
                   <div
                     class="StatusLabel-root-id undefined StatusLabel-successDot-id"
@@ -20529,7 +20567,7 @@ Ctrl + K"
                   </div>
                 </td>
                 <td
-                  class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+                  class="MuiTableCell-root-id MuiTableCell-body-id CategoryProductList-colPrice-id"
                 >
                   $48.66
                 </td>
@@ -21510,11 +21548,11 @@ Ctrl + K"
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Murray Inc
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -21593,11 +21631,11 @@ Ctrl + K"
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Williams-Taylor
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -21676,11 +21714,11 @@ Ctrl + K"
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Hebert-Sherman
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -21759,11 +21797,11 @@ Ctrl + K"
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Estes, Johnson and Graham
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -22673,7 +22711,7 @@ Ctrl + K"
                           />
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         <span
@@ -22681,7 +22719,7 @@ Ctrl + K"
                         >
                           ‌
                         </span>
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -39553,11 +39591,11 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Orange Juice
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -39636,11 +39674,11 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Carrot Juice
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -39719,11 +39757,11 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Bean Juice
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -39802,11 +39840,11 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       >
                         Black Hoodie
-                      </span>
+                      </div>
                     </div>
                   </td>
                   <td
@@ -46589,7 +46627,7 @@ exports[`Storyshots Views / HomePage default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     />
                   </div>
@@ -47316,7 +47354,7 @@ exports[`Storyshots Views / HomePage loading 1`] = `
                         />
                       </svg>
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     />
                   </div>
@@ -51549,11 +51587,11 @@ exports[`Storyshots Views / Orders / Order details cancelled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -51667,11 +51705,11 @@ exports[`Storyshots Views / Orders / Order details cancelled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -51785,11 +51823,11 @@ exports[`Storyshots Views / Orders / Order details cancelled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -52381,11 +52419,11 @@ exports[`Storyshots Views / Orders / Order details default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -52544,11 +52582,11 @@ exports[`Storyshots Views / Orders / Order details default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -52707,11 +52745,11 @@ exports[`Storyshots Views / Orders / Order details default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -53399,11 +53437,11 @@ exports[`Storyshots Views / Orders / Order details fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -53562,11 +53600,11 @@ exports[`Storyshots Views / Orders / Order details fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -53725,11 +53763,11 @@ exports[`Storyshots Views / Orders / Order details fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -54431,7 +54469,7 @@ exports[`Storyshots Views / Orders / Order details loading 1`] = `
                         />
                       </svg>
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       <span
@@ -54439,7 +54477,7 @@ exports[`Storyshots Views / Orders / Order details loading 1`] = `
                       >
                         ‌
                       </span>
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -54990,11 +55028,11 @@ exports[`Storyshots Views / Orders / Order details no customer note 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -55153,11 +55191,11 @@ exports[`Storyshots Views / Orders / Order details no customer note 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -55316,11 +55354,11 @@ exports[`Storyshots Views / Orders / Order details no customer note 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -56008,11 +56046,11 @@ exports[`Storyshots Views / Orders / Order details no payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -56171,11 +56209,11 @@ exports[`Storyshots Views / Orders / Order details no payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -56334,11 +56372,11 @@ exports[`Storyshots Views / Orders / Order details no payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -57026,11 +57064,11 @@ exports[`Storyshots Views / Orders / Order details no shipping address 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -57189,11 +57227,11 @@ exports[`Storyshots Views / Orders / Order details no shipping address 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -57352,11 +57390,11 @@ exports[`Storyshots Views / Orders / Order details no shipping address 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -58044,11 +58082,11 @@ exports[`Storyshots Views / Orders / Order details partially fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -58207,11 +58245,11 @@ exports[`Storyshots Views / Orders / Order details partially fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -58370,11 +58408,11 @@ exports[`Storyshots Views / Orders / Order details partially fulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -59062,11 +59100,11 @@ exports[`Storyshots Views / Orders / Order details payment confirmed 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -59225,11 +59263,11 @@ exports[`Storyshots Views / Orders / Order details payment confirmed 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -59388,11 +59426,11 @@ exports[`Storyshots Views / Orders / Order details payment confirmed 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -60080,11 +60118,11 @@ exports[`Storyshots Views / Orders / Order details payment error 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -60243,11 +60281,11 @@ exports[`Storyshots Views / Orders / Order details payment error 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -60406,11 +60444,11 @@ exports[`Storyshots Views / Orders / Order details payment error 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -61098,11 +61136,11 @@ exports[`Storyshots Views / Orders / Order details pending payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -61261,11 +61299,11 @@ exports[`Storyshots Views / Orders / Order details pending payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -61424,11 +61462,11 @@ exports[`Storyshots Views / Orders / Order details pending payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -62116,11 +62154,11 @@ exports[`Storyshots Views / Orders / Order details refunded payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -62279,11 +62317,11 @@ exports[`Storyshots Views / Orders / Order details refunded payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -62442,11 +62480,11 @@ exports[`Storyshots Views / Orders / Order details refunded payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -63134,11 +63172,11 @@ exports[`Storyshots Views / Orders / Order details rejected payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -63297,11 +63335,11 @@ exports[`Storyshots Views / Orders / Order details rejected payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -63460,11 +63498,11 @@ exports[`Storyshots Views / Orders / Order details rejected payment 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -64152,11 +64190,11 @@ exports[`Storyshots Views / Orders / Order details unfulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Watkins-Gonzalez (Soft)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -64315,11 +64353,11 @@ exports[`Storyshots Views / Orders / Order details unfulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -64478,11 +64516,11 @@ exports[`Storyshots Views / Orders / Order details unfulfilled 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       Williams, Garcia and Walker (XS)
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -65182,7 +65220,7 @@ exports[`Storyshots Views / Orders / Order draft default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       <p
@@ -65195,7 +65233,7 @@ exports[`Storyshots Views / Orders / Order draft default 1`] = `
                       >
                         58-1338
                       </span>
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -65290,7 +65328,7 @@ exports[`Storyshots Views / Orders / Order draft default 1`] = `
                         src="placeholder60x60.png"
                       />
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       <p
@@ -65303,7 +65341,7 @@ exports[`Storyshots Views / Orders / Order draft default 1`] = `
                       >
                         15-1337
                       </span>
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -65803,7 +65841,7 @@ exports[`Storyshots Views / Orders / Order draft loading 1`] = `
                         />
                       </svg>
                     </div>
-                    <span
+                    <div
                       class="TableCellAvatar-children-id"
                     >
                       <span
@@ -65811,7 +65849,7 @@ exports[`Storyshots Views / Orders / Order draft loading 1`] = `
                       >
                         ‌
                       </span>
-                    </span>
+                    </div>
                   </div>
                 </td>
                 <td
@@ -80918,7 +80956,7 @@ exports[`Storyshots Views / Products / Create product variant add first variant 
                           </defs>
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -81345,7 +81383,7 @@ exports[`Storyshots Views / Products / Create product variant default 1`] = `
                           src="placeholder255x255.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -81373,7 +81411,7 @@ exports[`Storyshots Views / Products / Create product variant default 1`] = `
                           src="placeholder255x255.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -81427,7 +81465,7 @@ exports[`Storyshots Views / Products / Create product variant default 1`] = `
                           </defs>
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -81865,7 +81903,7 @@ exports[`Storyshots Views / Products / Create product variant when loading data 
                           />
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -81923,7 +81961,7 @@ exports[`Storyshots Views / Products / Create product variant when loading data 
                           </defs>
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -82293,7 +82331,7 @@ exports[`Storyshots Views / Products / Create product variant with errors 1`] = 
                           src="placeholder255x255.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -82321,7 +82359,7 @@ exports[`Storyshots Views / Products / Create product variant with errors 1`] = 
                           src="placeholder255x255.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -82375,7 +82413,7 @@ exports[`Storyshots Views / Products / Create product variant with errors 1`] = 
                           </defs>
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -89680,7 +89718,6 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
           >
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -89711,17 +89748,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Gardner-Schultz
-                  </span>
+                    Nebula Night Sky Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -89735,12 +89772,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $83.30
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMg=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -89771,17 +89807,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    James, Martinez and Murray
-                  </span>
+                    Light Speed Yellow Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -89795,12 +89831,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $68.27
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMw=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -89831,17 +89866,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Curtis, Joyce and Turner
-                  </span>
+                    Hyperspace Turquoise Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -89855,12 +89890,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $21.43
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -89891,17 +89925,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Davis, Brown and Ray
-                  </span>
+                    Pineapple Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -89915,12 +89949,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $62.76
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -89951,17 +89984,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Gallegos Ltd
-                  </span>
+                    Coconut Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -89975,12 +90008,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $7.13
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNg=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -90011,17 +90043,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Franklin Inc
-                  </span>
+                    Apple Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -90035,12 +90067,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $48.82
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNw=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -90071,17 +90102,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Williams-Taylor
-                  </span>
+                    Orange Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -90095,12 +90126,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $27.34
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyOA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -90131,17 +90161,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Riddle, Evans and Hicks
-                  </span>
+                    Banana Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -90155,12 +90185,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $75.42
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyOQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -90191,17 +90220,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Hebert-Sherman
-                  </span>
+                    Bean Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -90215,12 +90244,11 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $86.62
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDozMA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -90251,17 +90279,17 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Carter and Sons
-                  </span>
+                    Carrot Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -90275,7 +90303,597 @@ exports[`Storyshots Views / Products / Product list default 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $48.66
+                $3.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Green Juice
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Juice
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $3.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Code Division T-shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Black Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Blue Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Mustard Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Colored Parrot Cushion
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Cushion
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $20.00
               </td>
             </tr>
           </tbody>
@@ -90733,7 +91351,7 @@ exports[`Storyshots Views / Products / Product list loading 1`] = `
                       />
                     </svg>
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
                     <span
@@ -90741,7 +91359,7 @@ exports[`Storyshots Views / Products / Product list loading 1`] = `
                     >
                       ‌
                     </span>
-                  </span>
+                  </div>
                 </div>
               </td>
               <td
@@ -92042,7 +92660,6 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
           >
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92073,17 +92690,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Gardner-Schultz
-                  </span>
+                    Nebula Night Sky Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92097,12 +92714,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $83.30
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMg=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92133,17 +92749,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    James, Martinez and Murray
-                  </span>
+                    Light Speed Yellow Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92157,12 +92773,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $68.27
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyMw=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92193,17 +92808,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Curtis, Joyce and Turner
-                  </span>
+                    Hyperspace Turquoise Paint
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Paint
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92217,12 +92832,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $21.43
+                $15.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92253,17 +92867,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Davis, Brown and Ray
-                  </span>
+                    Pineapple Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92277,12 +92891,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $62.76
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92313,17 +92926,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Gallegos Ltd
-                  </span>
+                    Coconut Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92337,12 +92950,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $7.13
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNg=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92373,17 +92985,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Franklin Inc
-                  </span>
+                    Apple Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92397,12 +93009,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $48.82
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyNw=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92433,17 +93044,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Williams-Taylor
-                  </span>
+                    Orange Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92457,12 +93068,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $27.34
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyOA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92493,17 +93103,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Riddle, Evans and Hicks
-                  </span>
+                    Banana Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92517,12 +93127,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $75.42
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDoyOQ=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92553,17 +93162,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Hebert-Sherman
-                  </span>
+                    Bean Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92577,12 +93186,11 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $86.62
+                $3.00
               </td>
             </tr>
             <tr
               class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
-              data-tc="product-UHJvZHVjdDozMA=="
             >
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
@@ -92613,17 +93221,17 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
                       src="placeholder255x255.png"
                     />
                   </div>
-                  <span
+                  <div
                     class="TableCellAvatar-children-id"
                   >
-                    Carter and Sons
-                  </span>
+                    Carrot Juice
+                  </div>
                 </div>
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
               >
-                Coffee
+                Juice
               </td>
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
@@ -92637,7 +93245,597 @@ exports[`Storyshots Views / Products / Product list with custom filters 1`] = `
               <td
                 class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
               >
-                $48.66
+                $3.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Green Juice
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Juice
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $3.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Code Division T-shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Polo Shirt
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Black Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Blue Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Mustard Hoodie
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Top (clothing)
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $30.00
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root-id MuiTableRow-hover-id ProductList-link-id"
+            >
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id MuiTableCell-paddingCheckbox-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id TableCellAvatar-root-id ProductList-colName-id"
+              >
+                <div
+                  class="TableCellAvatar-content-id"
+                >
+                  <div
+                    class="MuiAvatar-root-id TableCellAvatar-avatar-id"
+                  >
+                    <img
+                      class="MuiAvatar-img-id"
+                      src="placeholder255x255.png"
+                    />
+                  </div>
+                  <div
+                    class="TableCellAvatar-children-id"
+                  >
+                    Colored Parrot Cushion
+                  </div>
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colType-id"
+              >
+                Cushion
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPublished-id"
+              >
+                <div
+                  class="StatusLabel-root-id undefined StatusLabel-successDot-id"
+                >
+                  Published
+                </div>
+              </td>
+              <td
+                class="MuiTableCell-root-id MuiTableCell-body-id ProductList-colPrice-id"
+              >
+                $20.00
               </td>
             </tr>
           </tbody>
@@ -92720,7 +93918,7 @@ exports[`Storyshots Views / Products / Product variant details attribute errors 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -92748,7 +93946,7 @@ exports[`Storyshots Views / Products / Product variant details attribute errors 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -92776,7 +93974,7 @@ exports[`Storyshots Views / Products / Product variant details attribute errors 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -92804,7 +94002,7 @@ exports[`Storyshots Views / Products / Product variant details attribute errors 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -93403,7 +94601,7 @@ exports[`Storyshots Views / Products / Product variant details when loaded data 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -93431,7 +94629,7 @@ exports[`Storyshots Views / Products / Product variant details when loaded data 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -93459,7 +94657,7 @@ exports[`Storyshots Views / Products / Product variant details when loaded data 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -93487,7 +94685,7 @@ exports[`Storyshots Views / Products / Product variant details when loaded data 
                           src="placeholder60x60.png"
                         />
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
@@ -94092,7 +95290,7 @@ exports[`Storyshots Views / Products / Product variant details when loading data
                           />
                         </svg>
                       </div>
-                      <span
+                      <div
                         class="TableCellAvatar-children-id"
                       />
                     </div>
