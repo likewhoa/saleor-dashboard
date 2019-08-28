@@ -480,6 +480,7 @@ export interface ProductFilterInput {
   stockAvailability?: StockAvailability | null;
   productType?: string | null;
   search?: string | null;
+  minimalPrice?: PriceRangeInput | null;
 }
 
 export interface ProductTypeInput {
